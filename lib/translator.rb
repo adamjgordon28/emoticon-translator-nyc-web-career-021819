@@ -28,6 +28,6 @@ def get_english_meaning(file_path, emoticon)
   if full_library["get_meaning"].keys.include?(emoticon)
     return full_library["get_meaning"][emoticon]
   else 
-    return "Sorry, that emoticon was no found"
+    return "Sorry, that emoticon was not found"
   end
 end
